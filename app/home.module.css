@@ -1,0 +1,274 @@
+.accueil {
+  background: linear-gradient(rgba(0, 0, 80, 0.5), rgba(0, 0, 80, 0.5)),
+    url("/fond.jpg") fixed top;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  align-items: center;
+  padding: 200px 0;
+}
+
+.accueil h1 {
+  opacity: 1;
+  font-size: 70px;
+  text-align: center;
+  text-transform: uppercase;
+  width: 60vw;
+}
+
+.metiers {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+}
+
+.metiersDescript {
+  width: 50vw;
+  text-align: center;
+  font-size: 1.2rem;
+}
+.metiersspe {
+  width: 70%;
+  display: flex;
+  align-items: flex-end;
+}
+.metiersspe p {
+  width: 70%;
+  font-size: 0.9rem;
+}
+.metiertitle {
+  font-size: 3.2rem;
+  text-transform: uppercase;
+  text-align: center;
+  color: #2f3358;
+  width: 65vw;
+}
+.metiertitle2 {
+  font-size: 2.8rem;
+  text-transform: uppercase;
+  font-weight: normal;
+  text-align: center;
+  width: 60vw;
+}
+.produit {
+  width: 100%;
+  background-color: #0ca289;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3vw;
+  padding: 50px 0;
+}
+.produitGauche {
+  width: 35%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+.produitGauche p {
+  text-align: right;
+  width: 30vw;
+  color: white;
+}
+.produitGauche h2 {
+  text-align: right;
+  width: 100%;
+  color: white;
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: 2.5rem;
+}
+.produitGauche div:nth-child(3) {
+  margin-top: 4vh;
+}
+.produitImage {
+  width: 35%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.accompagnement {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3vw;
+  padding: 50px 0;
+}
+.accompagnementDroite {
+  width: 35vw;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2vh;
+}
+.accompagnementDroite p {
+  text-align: left;
+  font-size: 1rem;
+}
+.accompagnementDroite h2 {
+  text-align: left;
+  width: 100%;
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: 2.5rem;
+}
+
+.accompagnementImage {
+  width: 35%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.accompagnementDroite div:nth-child(5) {
+  width: max-content;
+}
+
+.partenaireImage {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+.partenaire {
+  text-align: center;
+  padding: 5vh;
+  text-transform: uppercase;
+}
+.partenaire h2 {
+  font-size: 3rem;
+  font-weight: normal;
+}
+.actualiteCard {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  gap: 5vw;
+}
+
+.actualiteCard a:hover {
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.356);
+}
+.actualite {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5vh;
+  padding: 50px 0;
+  background-color: #f5f5f5;
+}
+.actualite h2 {
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: normal;
+}
+
+@media screen and (max-width: 900px) {
+  .accueil h1 {
+    font-size: 40px;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 25px;
+  }
+  .metiersspe p {
+    width: 90%;
+  }
+  .metiersspe {
+    width: 90%;
+    flex-direction: column;
+    gap: 25px;
+  }
+  .metiersDescript {
+    width: 80vw;
+  }
+  .metiertitle {
+    font-size: 2.5rem;
+    width: 80vw;
+  }
+  .metiertitle2 {
+    font-size: 2rem;
+    width: 80vw;
+  }
+  .produit {
+    flex-direction: column;
+    gap: 5vh;
+  }
+  .produitGauche {
+    width: 80%;
+    align-items: center;
+  }
+  .produitGauche p {
+    text-align: center;
+    width: 80%;
+  }
+  .produitGauche h2 {
+    text-align: center;
+    width: 100%;
+  }
+  .produitImage {
+    width: 80%;
+    align-items: center;
+  }
+
+  .produitImage > img {
+    width: 100%;
+    height: auto;
+  }
+  .accompagnement {
+    flex-direction: column;
+    gap: 5vh;
+  }
+  .accompagnementDroite {
+    width: 80%;
+    align-items: center;
+  }
+  .accompagnementDroite p {
+    text-align: center;
+  }
+  .accompagnementDroite h2 {
+    text-align: center;
+    width: 100%;
+  }
+  .accompagnementImage {
+    width: 80%;
+    align-items: center;
+  }
+  .accompagnementImage > img {
+    width: 100%;
+    height: auto;
+  }
+  .partenaireImage {
+    flex-direction: column;
+    gap: 5px;
+  }
+  .partenaire {
+    padding: 5vh 0;
+  }
+  .partenaire h2 {
+    font-size: 2.5rem;
+  }
+  .actualiteCard {
+    flex-direction: column;
+    align-items: center;
+    gap: 5vh;
+  }
+  .actualite {
+    padding: 50px 0;
+  }
+  .actualite h2 {
+    font-size: 2rem;
+  }
+}

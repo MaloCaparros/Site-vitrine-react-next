@@ -1,0 +1,205 @@
+.actutitre{
+    width:100%;
+    padding:70px 0;
+    background-color:#5c79bb;
+    color:white;
+    justify-content:center;
+    align-items: center;
+    display:flex;
+    gap:50px;
+}
+.actutitre h1{
+    width:40%;
+    font-size: 3rem;
+}
+.img{
+    width:20%;
+    display:flex;
+    justify-content: flex-end;
+}
+.instacontain{
+    padding:100px 0;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:15px;
+}
+.instacontain h2{
+    font-size:2.5rem;
+    font-weight:normal;
+    text-align:center;
+}
+.instacontain p{
+    text-align:center;
+    width:60%;
+}
+.items{
+    display:flex;
+    width:60%;
+    justify-content:space-between;
+}
+.item{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+}
+.item p{
+    font-weight:700;
+    font-size:1.3rem;
+    width:60%;
+    text-align: center;
+}
+.produit{
+    display:flex;
+    flex-direction:column;
+    padding-top: 50px;
+    background-color:#eee
+}
+.produit h2{
+    font-size:2.2rem;
+    width:25%;
+    margin:0 auto;
+    font-weight:normal;
+    text-align:center;
+}
+.produit p{
+    text-align:center;
+    width:60%;
+    margin:0 auto;
+    padding: 2vh 0;
+
+}
+.catalogue{
+    display:flex;
+    width:100%;
+    height:40vh;
+}
+.accomplissement{
+    display:flex;
+
+}
+.accomplissement iframe{
+    height:50vh;
+    width:40%;
+    border: 0;
+}
+.accomptxt{
+    display:flex;
+    flex-direction:column;
+    width:60%;
+    padding: 50px 70px;
+    gap: 70px;
+    align-items:start;
+}
+.accomptxt h2{
+    font-size:2.2rem;
+    font-weight:normal;
+}
+.eco{
+    background-color:#5fb200;
+    display:flex;
+    justify-content: center;
+    gap:70px;
+    padding: 80px 0;
+}
+.eco h2{
+    width:30%;
+    font-size:2.5rem;
+    font-weight:normal;
+    color:white;
+    text-align: end;
+}
+.ecotext{
+    width:30%;
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+    align-items:start;
+}
+.ecotext p{
+    color:white;
+}
+@media screen and (max-width:925px){
+    .actutitre{
+        flex-direction:column;
+        gap:20px;
+        justify-content: center;
+    }
+    .actutitre h1{
+        width:90%;
+        font-size: 2.5rem;
+        text-align: center;
+    }
+    .img{
+        width:auto;
+        display: block;
+    }
+    .items{
+        flex-direction:column;
+        gap:0;
+    }
+    .accomplissement{
+        flex-direction:column;
+        gap:20px;
+    }
+    .instacontain p{
+        width:80%;
+    }
+    .instacontain{
+        padding:50px 0;
+    }
+    .produit{
+        background-color:#ffffff;
+    }
+    .produit h2{
+        width:90%;
+    }
+    .produit p{
+        width:90%;
+    }
+    .catalogue{
+        display:flex;
+        width:100%;
+        flex-direction: column;
+        height:auto;
+    }
+    .catalogue a{
+        width:100% !important;
+    }
+    .accomplissement iframe{
+        width:100%;
+        height:28vh;
+        border: 0;
+    }
+    .accomptxt{
+        width:100%;
+        align-items:center;
+        gap:20px;
+        padding: 70px 40px;
+    }
+    .accomptxt h2{
+        text-align: center;
+    }
+    .accomptxt p{
+        width:100%;
+        text-align: center;
+    }
+    .eco{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items:center;
+        gap:20px;
+    }
+    .eco h2{
+        width:90%;
+        text-align:center;
+    }
+    .ecotext{
+        width:90%;
+        text-align:center;
+        gap:20px;
+        align-items:center;
+    }
+
+}

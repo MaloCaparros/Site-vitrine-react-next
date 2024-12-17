@@ -1,0 +1,37 @@
+.buttonaccueil {
+
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    display: flex;
+    font-weight:700;
+    align-items: center;
+    gap: 10px;
+    transition: border-color 0.5s ease;
+
+}
+
+.buttonaccueil a {
+    text-decoration: none;
+    text-transform: uppercase;
+    transform: translateX(18px);
+    transition: transform 0.5s ease;
+    text-align: center;
+
+
+}
+
+.buttonaccueil svg {
+    opacity: 0;
+    transition: opacity 0.5s ease ;
+}
+.buttonaccueil:hover {
+    border-color: transparent !important;
+}
+.buttonaccueil:hover a {
+    transform: translateX(0px);
+}
+
+.buttonaccueil:hover svg {
+    opacity: 1;
+}

@@ -1,0 +1,24 @@
+.contact{
+    padding:5vh;
+    width:100%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+    gap:3vw;
+    color:white;
+}
+.contact h2{
+    font-size:2.7rem;
+    text-transform: uppercase;
+    text-align:center;
+    width:63vw;
+}
+
+@media screen and (max-width: 900px) {
+    .contact h2{
+        font-size: 30px;
+        text-align: center;
+        width: 100%;
+    }
+}

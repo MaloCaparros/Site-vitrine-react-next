@@ -1,0 +1,185 @@
+.actutitre {
+  width: 100%;
+  padding: 70px 0;
+  background-color: #00a58c;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  gap: 50px;
+}
+.actutitre h1 {
+  width: 40%;
+  font-size: 3rem;
+}
+.contain {
+  padding: 70px;
+}
+.contain h2 {
+  font-size: 2.4rem;
+  font-weight: normal;
+  text-align: center;
+  text-transform: uppercase;
+  width: 55%;
+  margin: 0 auto;
+}
+.contain p {
+  text-align: center;
+  width: 60%;
+  margin: 0 auto;
+  padding: 10px;
+  color: #666;
+}
+
+.elementcontain {
+  display: flex;
+  align-items: center;
+}
+.elementcontain img {
+  width: 50%;
+  height: 450px;
+  object-fit: cover;
+}
+.elementtxt {
+  padding: 50px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.elementtxt h2 {
+  text-transform: uppercase;
+  font-size: 2.7rem;
+  font-weight: normal;
+}
+.elementtxt h3 {
+  font-size: 1.5rem;
+  font-weight: normal;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.elementtxt p {
+  color: #666;
+  width: 90%;
+}
+.elementtxt li {
+  color: #666;
+  margin-left: 20px;
+  padding-top: 5px;
+}
+
+.elementtxt2 {
+  padding: 50px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.elementtxt2 h2 {
+  text-transform: uppercase;
+  font-size: 2.7rem;
+  font-weight: normal;
+}
+.elementtxt2 h3 {
+  font-size: 1.5rem;
+  font-weight: normal;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.elementtxt2 p {
+  color: #666;
+  width: 90%;
+  text-align: right;
+  margin-bottom: 40px;
+}
+.pbutton {
+  margin-bottom: 40px;
+}
+.elementcontain .img2 {
+  height: auto;
+}
+@media screen and (max-width: 900px) {
+  .actutitre {
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+  .actutitre h1 {
+    width: 90%;
+    font-size: 2rem;
+    text-align: center;
+  }
+  .img {
+    width: auto;
+    display: block;
+  }
+  .contain {
+    padding: 50px 0px;
+  }
+  .contain p{
+    width: 90%;
+  }
+  .contain h2 {
+    font-size: 2rem;
+    width: 80%;
+  }
+  .elementcontain {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top:30px;
+  }
+  .elementcontain img {
+    width: 100%;
+    object-fit: cover;
+  }
+  .elementtxt {
+    width: 100%;
+    padding:20px;
+    align-items:center;
+    
+  }
+  .elementtxt h2 {
+    font-size: 2.2rem;
+    text-align: center;
+  }
+  .elementtxt h3 {
+    font-size: 1.3rem;
+    text-align: center;
+  }
+  .elementtxt p {
+    width: 100%;
+    text-align: center;
+  }
+  .elementtxt li{
+    padding-top:15px;
+    text-align: center;
+  }
+
+  .elementtxt2 {
+    width: 100%;
+    padding:20px;
+    align-items:center;
+    
+  }
+  .elementtxt2 h2 {
+    font-size: 2.2rem;
+    text-align: center;
+  }
+  .elementtxt2 h3 {
+    font-size: 1.3rem;
+    text-align: center;
+  }
+  .elementtxt2 p {
+    width: 100%;
+    text-align: center;
+  }
+  .elementtxt2 li{
+    padding-top:15px;
+    text-align: center;
+  }
+  .inverse{
+    flex-direction: column-reverse;
+  }
+}

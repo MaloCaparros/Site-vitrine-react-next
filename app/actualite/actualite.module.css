@@ -1,0 +1,43 @@
+.actutitre{
+    width:100%;
+    height:30vh;
+    background-color:#2f3358;
+    color:white;
+    justify-content:center;
+    align-items: center;
+    display:flex;
+}
+.actutitre h1{
+    text-align:center;
+    font-size: 3rem;
+    font-weight: normal;
+    width:65%;
+    padding:5vh;
+}
+.actualiteCard{
+    display:flex;
+    width:70%;
+    gap: 15px;
+    padding:5vh;
+    flex-wrap:wrap;
+    justify-content:center;
+    margin:auto;
+
+}
+.actualiteCard a:hover{
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.356);
+}
+
+@media screen and (max-width: 900px) {
+    .actualiteCard{
+        width:100%;
+        margin: 50px 0;
+        padding: 0;
+        gap: 25px;
+    }
+    .actutitre h1{
+        font-size: 25px;
+        width: 100%;
+        padding: 0;
+    }
+}

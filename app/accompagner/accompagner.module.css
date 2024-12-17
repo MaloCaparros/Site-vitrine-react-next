@@ -1,0 +1,159 @@
+
+.accompaTitre{
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+    height:60vh;
+    width:100%;
+    background: linear-gradient(rgba(0, 0, 80, 0.5), rgba(0, 0, 80, 0.5)), url("/vousAccompagnez.jpeg") no-repeat center center;
+    background-color:blue;
+    display:flex;
+}
+.accompaTitre h1{
+    color:white;
+    text-transform: uppercase;
+    text-align: center;
+    width: 80vw;
+    margin:auto;
+    font-size:3rem;
+}
+.accompacontenu{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:4vh;
+    padding-top:8vh;
+}
+.contenutitle{
+    font-weight:normal;
+    font-size:2rem;
+    width:35vw;
+    text-align:center;
+}
+.contenuTxt{
+    width:57vw;
+    text-align:justify;
+}
+.description{
+    display:flex;
+    justify-content: center;
+    gap:5vw;
+}
+.description1{
+    width:27%;
+}
+.description1 strong{
+    color: #5d7bb7;
+}
+.description2{
+    width:27%;
+}
+.description h3{
+    font-weight:normal;
+    font-size:1.5rem;
+}
+.contenutitle2{
+    font-weight:normal;
+    font-size:2rem;
+    width:50vw;
+    text-align:center;
+}
+.accompaeven{
+    display:flex;
+    justify-content: center;
+    gap:3vw;
+    padding-bottom:10vh;
+}
+.description3{
+    width:100%;
+    padding-bottom:3vh;
+}
+.accompatxt{
+    width:27%;
+}
+.eco{
+    background-color:#5fb200;
+    color:white;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:space-around;
+    padding-top:5vh;
+    padding-bottom:5vh;
+}
+.eco h2{
+    font-weight:normal;
+    font-size:2.5rem;
+}
+.ecotype{
+    display:flex;
+    justify-content:center;
+    gap:4vw;
+}
+.ecotxt{
+    width:55%;
+    text-align:justify;
+}
+
+@media screen and (max-width: 900px) {
+    .accompaTitre{
+        height:50vh;
+    }
+    .accompaTitre h1{
+        font-size:2rem;
+    }
+    .contenutitle{
+        font-size:1.5rem;
+        width: 90%;
+    }
+    .contenuTxt{
+        width: 90%;
+    }
+    .description{
+        flex-direction:column;
+        gap:2vh;
+    }
+    .description1{
+        width:100%;
+        padding: 10px;
+    }
+    .description2{
+        width:100%;
+        padding: 10px;
+    }
+    .description h3{
+        font-size:1.2rem;
+    }
+    .contenutitle2{
+        font-size:1.5rem;
+        width:70vw;
+    }
+    .accompaeven{
+        flex-direction: column;
+        gap: 2vh;
+    }
+    .accompaeven > img{
+        display: none;
+    }
+    .description3{
+        width:100%;
+        padding: 10px;
+    }
+    .accompatxt{
+        width:100%;
+        padding: 10px;
+    }
+    .eco h2{
+        font-size:2rem;
+        padding: 10px;
+        text-align: center;
+    }
+    .ecotype{
+        flex-direction:column;
+        gap:2vh;
+    }
+    .ecotxt{
+        width:70%;
+        padding: 10px;
+    }
+}

@@ -1,0 +1,62 @@
+
+.accompaTitre{
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+    height:60vh;
+    width:100%;
+    background: linear-gradient(rgba(0, 0, 80, 0.5), rgba(0, 0, 80, 0.5)), url("/vousAccompagnez.jpeg") no-repeat center center;
+    display:flex;
+}
+.accompaTitre h1{
+    color:white;
+    text-transform: uppercase;
+    text-align: center;
+    width: 80vw;
+    margin:auto;
+    font-size:3rem;
+}
+
+.titreactu{
+    text-align:center;
+    font-size: 2rem;
+    font-weight: normal;
+    width:60vw;
+    margin:auto;
+    padding:5vh;
+}
+.pactu{
+    text-align:justify;
+    font-weight: normal;
+    width:60%;
+    margin:auto;
+    padding-top:2vh;
+}
+.lastp{
+    text-align:justify;
+    font-weight: normal;
+    width:60%;
+    padding-top:2vh;
+    margin:auto;
+}
+.lastp strong{
+    color:#5d7bb7;
+}
+.catalogueproduit{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    width:60%;
+    padding-top:10vh;
+    padding-bottom:5vh;
+    margin:auto;
+    gap: 25px;
+}
+@media screen and (max-width:700px){
+    .titreactu{
+        width:100%;
+    }
+    .catalogueproduit{
+        gap:20px;
+    }
+}

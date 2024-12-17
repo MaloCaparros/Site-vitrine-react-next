@@ -1,0 +1,144 @@
+.main{
+    display:flex;
+    padding: 0 50px;
+    width:100%;
+}
+.contain{
+    width:70%;
+    border-right: 1px solid #eee;
+    display:flex;
+    padding: 50px 50px 50px 370px;
+    flex-direction: column;
+    align-items:center;
+}
+
+
+.title{
+    font-size:2rem;
+    padding:5px 0;
+    width:100%;
+}
+.auteur{
+    width:100%;
+    padding:10px 0
+}
+.accompa{
+    padding: 40px 5px;
+}
+.planning{
+    display:flex;
+    flex-wrap:wrap;
+    gap:50px;
+}
+.planning > div{
+    width: 45%;
+    padding: 20px 0;
+
+}
+.rs{
+    display:flex;
+    width:100%;
+    background-color:black;
+    color:white;
+    justify-content:space-around;
+    margin-top:50px;
+}
+.info{
+    padding:30px 0;
+}
+.info a{
+    color:#5c7abb;
+    text-decoration:none;
+    font-weight:bold;
+}
+.rs p{
+    width:25%;
+    padding:20px;
+    text-align: center;
+}
+
+.rs p:hover{
+    cursor:pointer;
+    background-color: #c9c9c9;
+}
+.rs a{
+    color:white;
+    text-decoration:none;
+
+}
+
+.menu{
+    width: 30%;
+    padding: 50px 0 0 50px;
+}
+.menu h3{
+    font-size:2rem;
+    padding: 10px 0;
+    font-weight:normal;
+}
+.menu ul{
+    list-style: none;
+    padding: 0;
+    color:#666;
+}
+.menu ul li{
+    padding: 10px 0;
+    width:45%;
+}
+.menu a{
+    text-decoration:none;
+    color:#666;
+}
+
+.menu a:hover{
+    color:#2ea3f2;
+}
+@media screen and (max-width:700px){
+    .main{
+        flex-direction: column;
+        padding:20px 50px;
+    }
+    .auteur{;
+        padding: 10px 0;
+        text-align:center;
+    }
+    .title{
+        font-size:2rem;
+        text-align: center;
+    }
+    .contain{
+        width:100%;
+        padding:0;
+        border: none;
+    }
+    .contain img{
+        width:100%;
+        height:auto;
+
+    }
+    .accompa{
+        font-weight: normal;
+        padding:40px 0;
+    }
+    .accompa2{
+        display:none;
+    }
+    .planning{
+        gap:20px;
+    }
+    .planning > div{
+        width: 100%;
+        padding: 20px 0;
+    }
+    .menu{
+        padding: 50px 0 0 0;
+        width:100%;
+    }
+    .rs{
+        display:none;
+    }
+    .menu ul li{
+        width:100%;
+
+    }
+}

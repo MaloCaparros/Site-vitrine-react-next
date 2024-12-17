@@ -1,0 +1,11 @@
+.date{
+    font-style: italic;
+    font-weight: 700;
+    color:#666;
+    padding:10px 0;
+}
+.soustitre{
+    font-size:1.5rem;
+    padding:5px 0;
+    color: #666;
+}

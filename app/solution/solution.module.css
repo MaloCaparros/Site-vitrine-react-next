@@ -1,0 +1,190 @@
+.solution p {
+  color: #666;
+}
+.actutitre {
+  width: 100%;
+  padding: 70px 0;
+  background-color: #eb004b;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  gap: 50px;
+}
+.actutitre h1 {
+  width: 40%;
+  font-size: 3rem;
+}
+.img {
+  width: 20%;
+  display: flex;
+  justify-content: flex-end;
+}
+.contain {
+  padding: 50px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.contain h2 {
+  font-size: 2rem;
+  font-weight: normal;
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+}
+.textcontain {
+  text-align: center;
+  width: 60%;
+  margin: 0 auto;
+}
+.containlast {
+  text-align: center;
+}
+.garanti {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  padding: 50px 0;
+}
+.garantilist {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.garantilist > div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.garantilist > div > p {
+  padding: 0 10px;
+}
+.garantilist > div > svg {
+  color: #eb004b;
+}
+.commentaire {
+  background-color: #333333;
+  color: white;
+  font-style: italic;
+  padding: 80px 200px;
+}
+.commentaire h2 {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  font-weight: normal;
+  border-left: 5px solid #eb004b;
+  padding: 10px;
+  width: 75%;
+  margin: 0 auto;
+}
+.modelisation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 100px;
+}
+.modelisation iframe {
+  width: 80vw;
+  height: 60vh;
+}
+.modelisation h2 {
+  font-size: 2.5rem;
+  text-align: center;
+  width: 60%;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+.modelisation .modelp {
+  font-size: 1rem;
+  text-align: center;
+  width: 60%;
+  margin-bottom: 50px;
+}
+.modelisation > .modelp > a {
+  text-decoration: none;
+  color: #5c7abb;
+}
+.exemple {
+  width: 40%;
+  text-align: center;
+  padding: 60px 0;
+}
+.exdescription {
+  display: flex;
+  gap: 20px;
+}
+.element {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.element h3 {
+  padding: 10px 0;
+  font-size: 1.5rem;
+}
+.element p {
+  text-align: center;
+  width: 80%;
+}
+@media screen and (max-width: 900px) {
+  .actutitre {
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+  .actutitre h1 {
+    width: 90%;
+    font-size: 2rem;
+    text-align: center;
+  }
+  .commentaire {
+    padding: 50px 10px;
+  }
+  .commentaire h2 {
+    width: 80%;
+  }
+  .img {
+    width: auto;
+    display: block;
+  }
+  .garanti {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    padding: 50px 10px;
+  }
+  .garantilist > div > p {
+    padding: 0px;
+    width: 75%;
+  }
+  .garantilist > div > svg {
+    margin: 0 20px;
+  }
+  .exdescription {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .modelisation {
+    padding: 50px 0px;
+  }
+  .modelisation h2 {
+    font-size: 2rem;
+    width: 85%;
+  }
+  .modelisation .modelp {
+    width:80%;
+    text-align: justify;
+  }
+  .modelisation iframe {
+    width: 100vw;
+    height: 32vh;
+  }
+  .exemple {
+    width: 80%;
+    padding: 50px 0;
+  }
+}

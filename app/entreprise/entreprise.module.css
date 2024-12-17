@@ -1,0 +1,105 @@
+.societe{
+    background: linear-gradient(rgba(0, 0, 80, 0.5), rgba(0, 0, 80, 0.5)), url("/vousAccompagnez.jpeg") no-repeat center center;
+    background-color:blue;
+    padding: 200px 0;
+    align-items:center;
+    display:flex;
+    justify-content: center;
+}
+.societe h1{
+    color:white;
+    text-transform: uppercase;
+    text-align: center;
+    width: 80vw;
+    margin:auto;
+    font-size:3rem;
+}
+.entrepriseTxt{
+    padding:3vh 20vw;
+}
+.chiffre{
+    display:flex;
+    justify-content:space-around;
+    padding:5vh 20vw;
+    background-color: #2f3358;
+}
+.chiffre .item{
+    text-align:center;
+}
+.number{
+    font-size:4rem;
+    color:#00A58C;
+    font-weight:bold;
+}
+.txt{
+    color:white;
+    font-size:1.5rem;
+    font-weight:bold;
+}
+.descriptif{
+    display:flex;
+    align-items: center;
+    flex-direction:column;
+    gap:5vh;
+    padding:10vh 20vw;
+}
+.descriptif h3{
+    text-align:center;
+    font-weight:normal;
+    font-size:2.2rem;
+}
+.descriptifContain{
+    display:flex;
+    gap:50px;
+}
+.descriptifContain a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #5c7abb;
+}
+.textfin a{
+    text-decoration: none;
+    color:#5c7abb;
+}
+
+@media screen and (max-width: 900px) {
+    .societe h1{
+        font-size: 25px;
+        width: 100%;
+        padding: 0;
+    }
+    .entrepriseTxt{
+        padding:3vh 5vw;
+    }
+    .chiffre{
+        flex-direction: column;
+    }
+    .chiffre .item{
+        text-align:center;
+    }
+    .number{
+        font-size:2rem;
+    }
+    .txt{
+        font-size:1rem;
+    }
+    .descriptif{
+        padding:10vh 5vw;
+    }
+    .descriptif h3{
+        font-size:1.5rem;
+    }
+    .descriptifContain{
+        flex-direction:column;
+        gap:5vh;
+    }
+    .descriptifContain a{
+        text-decoration: none;
+        font-weight: bold;
+        color: #5c7abb;
+    }
+    .textfin a{
+        text-decoration: none;
+        color:#5c7abb;
+    }
+}

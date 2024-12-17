@@ -1,0 +1,112 @@
+.element1{
+    background: url("/projet/Salon-Transports-Publics-1-400x284.jpg");
+}
+.element2{
+    background: url("/projet/Salon-Technotrans-5-400x284.jpg");
+}
+.element3{
+    background: url("/projet/Operation-Start-Ouest-2-400x284.jpg");
+}
+.element4{
+    background: url("/projet/Salon-Mariage-Carousel-Louvre-3-400x284.jpg");
+}
+
+.plus{
+    position:relative;
+    width:100%;
+    display:flex;
+    justify-content: center;
+}
+.items{
+    display:flex;
+    padding:50px;
+    gap:10px;
+}
+
+.plus .items a{
+    width:380px;
+    height:284px;
+    text-decoration: none;
+    color:black;
+}
+.items a p{
+    display:none;
+}
+@keyframes top{
+    0%{
+        transform: translateY(10px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+.items a:hover p{
+    display:block;
+    animation: top 0.5s;
+    font-size:2rem;
+    text-align:center;
+}
+.items .element1:hover{
+    background:linear-gradient( rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.8)), url("/projet/Salon-Transports-Publics-1-400x284.jpg");
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.items .element2:hover{
+    background:linear-gradient( rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.8)), url("/projet/Salon-Technotrans-5-400x284.jpg");
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.items .element3:hover{
+    background:linear-gradient( rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.8)), url("/projet/Operation-Start-Ouest-2-400x284.jpg");
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.items .element4:hover{
+    background:linear-gradient( rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.8)), url("/projet/Salon-Mariage-Carousel-Louvre-3-400x284.jpg");
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width:700px){
+    .plus{
+        flex-direction:column;
+        width:auto;
+    }
+    .items{
+        flex-direction:column;
+        padding:0;
+
+    }
+    .plus .items a{
+        width:100%;
+    }
+    .items a{
+        align-items:center;
+        display:flex;
+        border-left:1px solid black;
+    }
+    .items .element1{
+        background:linear-gradient( rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.8)), url("/projet/Salon-Transports-Publics-1-400x284.jpg");
+    }
+    .items .element2{
+        background:linear-gradient( rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.8)), url("/projet/Salon-Technotrans-5-400x284.jpg");
+    }
+    .items .element3{
+        background:linear-gradient( rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.8)), url("/projet/Operation-Start-Ouest-2-400x284.jpg");
+    }
+    .items .element4{
+        background:linear-gradient( rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.8)), url("/projet/Salon-Mariage-Carousel-Louvre-3-400x284.jpg");
+    }
+
+    .items a p{
+        display:block;
+        font-size:2rem;
+        text-align:center;
+    }
+}
+
+

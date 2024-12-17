@@ -1,0 +1,39 @@
+.projet {
+    width: 20vw;
+    border: 1px solid #C0C0C0;
+}
+.projet:hover{
+    box-shadow: 0 0 10px 0 #000000;
+}
+.projet:hover img{
+    opacity:0.2;
+    
+}
+
+.projet h2 {
+    font-size: 1.3rem;
+    color: white;
+    background-color: #5c79bb;
+    padding: 10px;
+    height: 8vh;
+    transform: translateY(-6px);
+}
+
+.projet img {
+    width: 100%;
+    height: auto;
+}
+
+.projet p {
+    padding: 10px;
+    font-size: 0.9rem;
+}
+
+@media screen and (max-width: 900px) {
+    .projet {
+        width: 100%;
+    }
+    .projet h2{
+        height:auto;
+    }
+}

@@ -1,0 +1,37 @@
+.actucard{
+    width: 25%;
+    position:relative;
+    text-decoration: none;
+    border: 2px solid rgba(0, 0, 0, 0.116);
+}
+.actuImage{
+    width:100%;
+    height: 150px;
+    object-fit:cover;
+}
+.titre{
+    color: black;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+.infotxt{
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    background-color: #5d7bb7;
+    padding: 5px;
+    color: white;
+    width: 80%;
+    text-transform: uppercase;
+    transform: translateY(-10px);
+}
+
+@media screen and (max-width: 900px) {
+    .actucard{
+        width: 80%;
+    }
+}

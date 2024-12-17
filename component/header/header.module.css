@@ -1,0 +1,164 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    position: sticky;
+    background-color: white;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    padding-top: 25px;
+    box-shadow: 0 0 7px rgba(0,0,0,0.1);
+}
+
+.baseLogo > img{
+    width: 280px;
+    height: auto;
+    transition: 1s;
+}
+
+.logoResize > img{
+    width: 200px;
+    height: auto;
+    transition: 1s;
+}
+
+.headerMenuListe {
+    display: flex;
+    justify-content: space-between;
+    width: 60vw;
+}
+
+.headerMenuListe > li {
+    list-style: none;
+    text-transform: uppercase;
+    font-size: 0.85rem;
+    font-weight: 700;
+    color: #2f3358;
+    padding-bottom: 25px;
+    transition: 0.5s;
+}
+
+.headerMenuListe > li a {
+    text-decoration: none;
+    color: #2f3358;
+    transition: 0.3s;
+}
+
+.headerMenuListe > li > a:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+@keyframes opacity2 {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.headerSousmenu {
+    position: absolute;
+    flex-direction: column;
+    justify-content: space-between;
+    top: 100%;
+    left: 0;
+    padding: 15px;
+    width: 20vw;
+    display: none;
+    background-color: white;
+}
+
+.headerSousmenu > a {
+    list-style: none;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.headerSousmenu > a {
+    padding: 15px;
+}
+
+.headerSousmenu > a:hover {
+    background: rgba(0,0,0,0.05);
+    opacity: 0.5;
+}
+
+.headerDropdown {
+    display: flex;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+}
+.headerDropdown:hover .headerSousmenu{
+    border-top: 1px solid black;
+    display: flex;
+    opacity: 1;
+    animation: opacity2 0.5s;
+}
+
+.btnResp{
+    display: none;
+}
+
+@media screen and (max-width: 900px) {
+    .headerMenuListe {
+        display: none;
+    }
+
+    .headerMenuListeResp {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+    }
+
+    .headerSousmenu{
+        width: 100%;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        box-shadow: 0 0 7px rgba(0,0,0,0.1);
+    }
+
+    .headerMenuListe > li{
+        padding: 0;
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .baseLogo > img{
+        width: 200px;
+        height: auto;
+        transition: 1s;
+    }
+    .logoResize > img{
+        width: 150px;
+        height: auto;
+        transition: 1s;
+    }
+    .btnResp{
+        display: flex;
+        position: absolute;
+        top: 50%;
+        z-index: 1002;
+        right: 25px;
+        cursor: pointer;
+        transition: 0.2s;
+        transform: translate(0, -50%);
+    }
+    .btnResp:hover{
+        transform: scale(1.1);
+    }
+}
